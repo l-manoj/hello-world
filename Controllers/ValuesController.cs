@@ -13,14 +13,14 @@ namespace hello_world.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "Docker", "Testing" };
+            return new string[] { "Docker", "Test" };
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "docker";
+            return "docker test";
         }
 
         // POST api/values
