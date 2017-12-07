@@ -20,7 +20,7 @@ namespace hello_world.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return "docker";
         }
 
         // POST api/values
