@@ -1,2 +1,3 @@
 # hello-world
-This a sample test file. 
+This a sample project to test Docker automated builds.
+ 
