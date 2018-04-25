@@ -20,4 +20,6 @@ WORKDIR /publish
 
 COPY --from=build-env /publish .
 
+EXPOSE PORT 8000
+
 ENTRYPOINT [ "dotnet","hello-world.dll" ]
