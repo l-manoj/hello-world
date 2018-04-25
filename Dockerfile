@@ -20,6 +20,5 @@ WORKDIR /publish
 
 COPY --from=build-env /publish .
 
-EXPOSE 8000 
 
 ENTRYPOINT [ "dotnet","hello-world.dll" ]
