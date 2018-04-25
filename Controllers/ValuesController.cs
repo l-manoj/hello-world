@@ -13,7 +13,7 @@ namespace hello_world.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "Hello world app", "tested via CI/CD ", "from Github to VSTS build to VSTS release to Azure app service" };
+            return new string[] { "hello world app", "tested via CI/CD ", "from Github to VSTS build to VSTS release to Azure app service" };
         }
 
         // GET api/values/5
