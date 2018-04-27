@@ -13,14 +13,14 @@ namespace hello_world.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "04272018 hello world container app", "tested via CI/CD ", "from Github to VSTS build to VSTS release to Azure app service" };
+            return new string[] { "test demo-  hello world container app", "tested via CI/CD ", "from Github to VSTS build to VSTS release to Azure app service" };
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "04272018 hello world container app tested via CI/CD from Github to VSTS build to VSTS release to Azure app service";
+            return " test demo-  hello world container app tested via CI/CD from Github to VSTS build to VSTS release to Azure app service";
         }
 
         // POST api/values
